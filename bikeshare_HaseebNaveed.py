@@ -20,7 +20,7 @@ def get_filters():
     months = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
     days = ['saturday', 'sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'all']
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
-    city = input('Please Select the city you want to explore it`s data\n' 'Chicago ,New York City or Washington :\n ').lower()
+    city = input('Please sselect the city you want to explore it`s data\n' 'Chicago ,New York City or Washington :\n ').lower()
     while city not in city_name:
         city = input('Please enter a VALID City name as mentioned above !\n')
     # TO DO: get user input for month (all, january, february, ... , june)
@@ -125,8 +125,8 @@ def tripDuration_statistics(df):
     print('Total Travel Time:', total_in_hrs)
 
     # display mean travel time
-    average_time = df['Trip Duration'].mean()
-    average_in_hrs=time.strftime('%H:%M:%S', time.gmtime(average_time))
+    avg_time = df['Trip Duration'].mean()
+    average_in_hrs=time.strftime('%H:%M:%S', time.gmtime(avg_time))
     print('Total Travel Time:', average_in_hrs)
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
