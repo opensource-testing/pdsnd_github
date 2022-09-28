@@ -10,7 +10,7 @@ VersionControl_HaseebNaveed
 The project helps me learn how to use Git and Github for version control, collaboration and effective management of the project and its files
 
 ### Files used
-Include the files used
+bikeshare_HaseebNaveed, washington.csv, chicago.csv, new_york_city.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
