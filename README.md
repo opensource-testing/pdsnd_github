@@ -7,7 +7,7 @@
 VersionControl_HaseebNaveed
 
 ### Description
-Describe what your project is about and what it does
+The project helps me learn how to use Git and Github for version control, collaboration and effective management of the project and its files
 
 ### Files used
 Include the files used
